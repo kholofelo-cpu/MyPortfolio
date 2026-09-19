@@ -19,11 +19,11 @@ const projects = [
 
 function Projects() {
   return (
-    <section id="projects" className="bg-gray-50 px-6 py-20">
+    <section id="projects" className="bg-white-50 px-6 py-20 dark:bg-black">
       <div className="mx-auto max-w-6xl">
         <h2 className="text-3xl font-bold">Projects</h2>
 
-        <div className="mt-8 grid gap-6 md:grid-cols-2">
+        <div className="mt-8 grid gap-6 md:grid-cols-2 bg-white dark:bg-zinc-900 dark:border-zinc-800">
           {projects.map((project) => (
             <ProjectCard
               key={project.title}

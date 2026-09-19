@@ -15,7 +15,7 @@ function Hero() {
           I am a junior software developer who enjoys building useful applications and learning new technologies.
         </p>
 
-        <div className="mt-8 flex gap-4">
+        <div className="mt-8 flex  flex-col sm:flex-row gap-4">
           <a
            href="#projects"
            className="rounded-lg bg-black px-5 py-3 text-white"

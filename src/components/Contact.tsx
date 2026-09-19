@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="contact" className="px-6 py-20">
+    <section id="contact" className="bg-white px-6 py-20 dark:bg-black">
       <div className="mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold">Contact</h2>
 
@@ -10,7 +10,7 @@ function Contact() {
         <div className="mt-6 flex flex-wrap gap-4">
            <a 
            href="mailto:kshokane58@gmailcom"
-           className="rounded-lg bg-black px-5 py-3 text-white"
+           className="rounded-xl border-2 border-black dark:border-white px-6 py-3 font-medium text-black dark:text-white"
            >
             Email me
            </a>
@@ -19,7 +19,7 @@ function Contact() {
            href="htpps://github.com/kholofelo-cpu"
            target="_blank"
            rel="noreferrer"
-           className="rounded-lg border px-5 py-3"
+           className="rounded-xl border-2 border-black dark:border-white px-6 py-3 font-medium text-black dark:text-white"
            >
             GitHub
            </a>
@@ -28,7 +28,7 @@ function Contact() {
            href="https://www.linkedin.com/in/KholofeloShokake"
            target="_blank"
            rel="noreferrer"
-           className="rounded-lg border px-5 py-3"
+           className="rounded-xl border-2 border-black dark:border-white px-6 py-3 font-medium text-black dark:text-white"
            >
             LinkedIn
            </a>

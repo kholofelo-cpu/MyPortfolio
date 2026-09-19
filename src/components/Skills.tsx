@@ -9,7 +9,7 @@ const skills = [
 
 function Skills() {
   return (
-    <section id="skills" className="px-6 py-20">
+    <section id="skills" className="bg-white px-6 py-20  dark:bg-black">
       <div className="mx-auto max-w-6xl">
         <h2 className="text-3xl font-bold">Skills</h2>
 

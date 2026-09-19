@@ -17,15 +17,14 @@ function ProjectCard( {
     <article className="rounded-xl border p-6">
       <h3 className="text-xl font-bold">{title}</h3>
 
-      <p className="mt-3 text-gray-600">
+      <p className="mt-3 text-gray-700 dark:text-gray-300">
         {description}
       </p>
 
       <div className="mt-4 flex flex-wrap gap-2">
         {technologies.map((technology) => (
-          <span
-           key={technology}
-           className="rounded-md bg-gray-100 px-3 py-1 text-sm"
+          <span className="rounded-full bg-white text-black dark:bg-white  dark:text-black border-2 border-black px-3 py-1 text-xs font-bold shadow-sm"
+           key={technology}       
           >
             {technology}
           </span>
