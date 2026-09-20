@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App() {
   const [dark, setDark] = useState(false)
-  const [scrollProgress, setScrollProgress] = useState(0)
+ 
 
   useEffect(() => {
     if (dark) {
@@ -19,23 +19,9 @@ function App() {
     }
   }, [dark])
 
-  useEffect(() => {
-    const onScroll = () => {
-      const scrolled = window.scrollY
-      const height = document.body.scrollHeight - window.innerHeight
-      const progress = (scrolled /height ) * 100
-      setScrollProgress(progress)
-    }
-    window.addEventListener("scroll", onScroll)
-    return () => window.removeEventListener("scroll", onScroll)
-  }, [])
-
+  
   return (
     <div className="w-full overflow-x-hidden min-h-screen bg-white dark:bg-black">
-      <div className="fixed top-0 left-0 h-1 bg-black dark:bg-white z-[100] transition-all"
-      style={{ width: `${scrollProgress}%` }}
-      />
-      
       <Navbar dark={dark}  setDark={setDark}/>
       <Hero />
       <About />
