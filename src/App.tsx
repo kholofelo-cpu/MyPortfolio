@@ -31,7 +31,7 @@ function App() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black">
+    <div className="w-full overflow-x-hidden min-h-screen bg-white dark:bg-black">
       <div className="fixed top-0 left-0 h-1 bg-black dark:bg-white z-[100] transition-all"
       style={{ width: `${scrollProgress}%` }}
       />

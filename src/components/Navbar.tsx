@@ -1,3 +1,4 @@
+
 type Props = { dark: boolean; setDark: (v: boolean) => void}
 function Navbar ({ dark, setDark } : Props) {
   return (
