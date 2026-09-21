@@ -31,7 +31,7 @@ function Contact() {
            </a>
 
            <a 
-           href="htpps://github.com/kholofelo-cpu"
+           href="https://github.com/kholofelo-cpu"
            target="_blank"
            rel="noopener noreferrer"
            className="rounded-xl border-2 border-black dark:border-white px-6 py-3 font-medium text-black dark:text-white"
